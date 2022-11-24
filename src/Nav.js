@@ -8,7 +8,7 @@ export default class Nav extends React.Component{
 
         return(
             <div style={styles.wrapper}>
-                <p style={styles.logo}><a href='/'>Test Item Console</a></p>
+                <p style={styles.logo}><a href='/'>Test Maker</a></p>
                 <p style={styles.item}><a href='/test_items'>Edit & Create</a></p>
                 <p style={styles.item}><a href="/pending">Pending Approvals</a></p>
                 <p style={styles.item}><a href="/create_assesment">Create Assement</a></p>
