@@ -24,3 +24,14 @@ a{
   color: #1c1cff;
 }
 
+#introWrapper{
+  width: 70%;
+  margin: auto;
+}
+
+#introWrapper ul{
+  width: 400px;
+  margin: auto;
+  text-align: left;
+}
+

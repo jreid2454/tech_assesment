@@ -9,7 +9,7 @@ export default class Home extends React.Component{
 
 
         return(
-            <div>
+            <div id="introWrapper">
                 <h1>A Little Bit About This App</h1>
                 <p>The purpose of this site is to demo the frontend of an application meant for teachers and administrators to create tests for students. 
 <br/><br/>
@@ -20,8 +20,9 @@ The "Review & Approve" tab would only be accessible to administrators, but since
 Things you can do in this app
 <br/><br/>
 <ul>
-    <li>Create a test question</li>
-    <li>Review and Approve pending test questions</li>
+    <li>Create & Edit a test question</li>
+    <li>Review questions and leave comments</li>
+    <li>Approve questions</li>
     <li>Create Assessments using approved questions</li>
     <li>Publish Assessments ( currently doesn’t do anything )</li>
 </ul>
